@@ -594,7 +594,7 @@ func (e *Exporter) scrapeRedisHost(ch chan<- prometheus.Metric) error {
 
 	e.extractInfoMetrics(ch, infoAll, dbCount)
 
-	e.extractLatencyMetrics(ch, c)
+	//e.extractLatencyMetrics(ch, c)
 
 	e.extractCheckKeyMetrics(ch, c)
 
