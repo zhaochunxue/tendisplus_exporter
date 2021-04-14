@@ -225,7 +225,7 @@ func NewRedisExporter(redisURI string, opts Options) (*Exporter, error) {
 			"current-backup-running": "current_backup_running",
 
 			// # Compaction
-			"current-compaction-status":     "current_compaction_status",
+			//"current-compaction-status":     "current_compaction_status",
 			"time-since-lastest-compaction": "time_since_lastest_compaction",
 			"current-compaction-dbid":       "current_compaction_dbid",
 
@@ -365,6 +365,7 @@ func NewRedisExporter(redisURI string, opts Options) (*Exporter, error) {
 		"db_keys_expiring":                             {txt: "Total number of expiring keys by DB", lbls: []string{"db"}},
 		"exporter_last_scrape_error":                   {txt: "The last scrape error status.", lbls: []string{"err"}},
 		"instance_info":                                {txt: "Information about the Redis instance", lbls: []string{"role", "redis_version", "redis_build_id", "redis_mode", "os", "maxmemory_policy", "tcp_port", "run_id", "process_id"}},
+		"current_compaction_info":                      {txt: "Information about the Tendisplus compaction", lbls: []string{"current_compaction_status"}},
 		"key_group_count":                              {txt: `Count of keys in key group`, lbls: []string{"db", "key_group"}},
 		"key_group_memory_usage_bytes":                 {txt: `Total memory usage of key group in bytes`, lbls: []string{"db", "key_group"}},
 		"key_size":                                     {txt: `The length or size of "key"`, lbls: []string{"db", "key"}},
