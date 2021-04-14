@@ -104,6 +104,10 @@ func (e *Exporter) extractInfoMetrics(ch chan<- prometheus.Metric, info string, 
 			e.registerConstMetricGauge(ch, "db_keys_expiring", 0, dbName)
 		}
 	}
+	
+	e.registerConstMetricGauge(ch, "current_compaction_info", 1,
+		keyValues["current-compaction-status"],
+	)
 
 	e.registerConstMetricGauge(ch, "instance_info", 1,
 		keyValues["role"],
