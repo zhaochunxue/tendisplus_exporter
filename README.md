@@ -9,6 +9,7 @@ tendisplus_exporter由redis_exporter更改而来,只是用于我们公司内部�
 
 grafana展示
 ![image](https://user-images.githubusercontent.com/64675999/114675699-1ff95f80-9d3b-11eb-87fb-c066dd2fc32c.png)
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/64675999/114676690-20462a80-9d3c-11eb-9d99-3f3d0f5575f7.png)
+
 
 
