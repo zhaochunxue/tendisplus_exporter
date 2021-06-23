@@ -245,6 +245,8 @@ func NewRedisExporter(redisURI string, opts Options) (*Exporter, error) {
 			"rocksdb.mem-table-flush-pending":           "rocksdb_mem_table_flush_pending",
 			"rocksdb.estimate-pending-compaction-bytes": "rocksdb_estimate_pending_compaction_bytes",
 			"rocksdb.compaction-pending":                "rocksdb_compaction_pending",
+			"rocksdb.compaction-filter-count":           "rocksdb_compaction_filter_count",
+			"rocksdb.compaction-kv-expired-count":       "rocksdb_compaction_kv_expired_count",
 
 			// # Replication
 			"connected_slaves":               "connected_slaves",
