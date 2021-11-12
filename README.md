@@ -8,8 +8,5 @@ tendisplus_exporter由redis_exporter更改而来,只是用于我们公司内部�
 传入的环境变量也redis_exporter相同,具体可以参考https://github.com/oliver006/redis_exporter
 
 grafana展示
-![image](https://user-images.githubusercontent.com/64675999/114675699-1ff95f80-9d3b-11eb-87fb-c066dd2fc32c.png)
-![image](https://user-images.githubusercontent.com/64675999/114676690-20462a80-9d3c-11eb-9d99-3f3d0f5575f7.png)
-
-
-
+![@U8CLZ4G@GLS@0@5`RQ~UEY](https://user-images.githubusercontent.com/64675999/141404346-02e203ff-5707-4ec4-94be-b264c9ca0f9b.png)
+![image](https://user-images.githubusercontent.com/64675999/141404414-6288f928-7726-4bda-b31d-a0908baf101e.png)
